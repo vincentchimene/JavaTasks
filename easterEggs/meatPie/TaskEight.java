@@ -1,5 +1,5 @@
 /*
-* A Java program that takes a number and prints its square.
+* A Java program that takes a number and prints its cube.
 */
 public class TaskEight{
     public static void main(String[] args){
