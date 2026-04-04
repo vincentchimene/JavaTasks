@@ -2,7 +2,7 @@
 * A Java program that takes two numbers and print their sum.
 */
 
-public class Sum{
+public class TaskThree{
     public static void main(String[] args){
         
         int firstNum = 45;

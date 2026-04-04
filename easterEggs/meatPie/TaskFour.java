@@ -2,7 +2,7 @@
 * A Java program that takes two numbers and print their difference
 */
 
-public class Difference{
+public class TaskFour{
     public static void main(String[] args){
         
         int firstNum = 459;
