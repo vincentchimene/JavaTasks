@@ -12,6 +12,6 @@ public class TaskTwenty{
         double width = input.nextDouble();
         
         double area = (length * width);
-        System.out.printf("Area of rectangle is %.2f%n",area);
+        System.out.printf("Area of rectangle is %f2%n",area);
     }
 }
