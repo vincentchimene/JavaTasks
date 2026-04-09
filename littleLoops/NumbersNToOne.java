@@ -1,3 +1,7 @@
+/*
+* A java program that prints numbers from N(user input) down to 1.
+* Prints vertically.
+*/
 import java.util.Scanner;
 
 public class NumbersNToOne{

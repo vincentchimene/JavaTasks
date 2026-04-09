@@ -1,3 +1,7 @@
+/*
+* A java program that prints numbers from 1 to N(user input).
+* Prints vertuically
+*/
 import java.util.Scanner;
 
 public class NumbersOneToN{

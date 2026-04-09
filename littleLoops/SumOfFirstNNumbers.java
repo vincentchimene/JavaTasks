@@ -1,3 +1,6 @@
+/*
+* A java program that prints the sum of the first N integers from 1 to 10
+*/
 import java.util.Scanner;
 public class SumOfFirstNNumbers{
     public static void main(String[] args){
