@@ -6,8 +6,10 @@
 public class ProductOfFirstTen{
     public static void main(String[] args){
         int product = 1;
-        for (int i = 1; i <= 10; i++){
+        int i = 1; 
+        while (i <= 10){
             product *= i;  
+            i++;
         }
         System.out.printf("%d%n", product);
     }
