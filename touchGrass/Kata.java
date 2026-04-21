@@ -3,15 +3,14 @@ public class Kata{
         System.out.printf("%d", max(23, 26));
     }
         
-}
+
 
         public static int max(int num1, int num2){
+            int maximum = num2;
             if (num1 > num2){
-                return num1;       
+                maximum = num1;       
             }
-            else {
-                return num2;
-            }
+            return maximum;
         }
     
     public static int subtraction(int number1, int number2){
@@ -71,6 +70,7 @@ public class Kata{
         }
         return factorial;    
     }
+}
 
 
 
