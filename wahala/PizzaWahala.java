@@ -1,8 +1,10 @@
+
 public class PizzaWahala{
     public static String pizzaOrderDetails(double numberOfGuest, String pizzaType){
-        pizzaType = pizzaType.tolowerCase();
+     
         int pricePerBox;
-        double numberOfSlice; 
+        double numberOfSlice;
+        String message; 
         
         switch(pizzaType){
             case "sapa size":
@@ -22,17 +24,22 @@ public class PizzaWahala{
                 numberOfSlice = 12;
                 break;
             default:
-                System.out.println("Invalid Order!");
-                return;
+                message = "Invalid Order!";
+                return message;
         }
 
-        int boxesOfPizza = (int)math.ceil(numberOfGuest/numberOfSlice);
+        int boxesOfPizza = (int)Math.ceil(numberOfGuest/numberOfSlice);
         int leftOverSlice = (int)(boxesOfPizza * numberOfSlice - numberOfGuest);
         int customerBill = pricePerBox * boxesOfPizza;
-        
-
-        // STILL WORKING ON THIS!!!
+        message = "Boxes of pizza to buy: " + boxesOfPizza + "\nNumber of left over slices: " + leftOverSlice + "\nCustomer will pay: " + customerBill; 
+        return message;
 
 
     }
+
+
+    public static void main(String[] args) {
+        System.out.println(pizzaOrderDetails(48, "odogwu"));
+        
+ }
 }
