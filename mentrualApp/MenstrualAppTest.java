@@ -39,7 +39,16 @@ public class MenstrualAppTest{
         assertEquals(expected, result);
         
     }
-
+    
+     @Test
+    public void testThatgetgetCurrentCycleOvulationDayGivesTheOvulationDay(){
+        MenstrualApp calc = new MenstrualApp();
+        LocalDate lastPeriodStartDate = LocalDate.of(2026, 4, 20);
+        LocalDate result = calc.getCurrentCycleOvulationDay(lastPeriodStartDate);
+        LocalDate expected = LocalDate.of(2026, 5, 3);
+        assertEquals(expected, result);
+        
+    }
 
 }
 

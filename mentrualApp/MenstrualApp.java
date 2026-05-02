@@ -14,7 +14,11 @@ public class MenstrualApp{
         return lastPeriodStartDate.plusDays(cycleDuration);
     }
     
+    public LocalDate getCurrentCycleOvulationDay(LocalDate lastPeriodStartDate) {
+        return lastPeriodStartDate.plusDays(13);
+    }
 
+    
 
 
 }
