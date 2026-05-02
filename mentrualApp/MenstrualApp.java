@@ -13,6 +13,8 @@ public class MenstrualApp{
     public LocalDate getNextFlowStartDate(LocalDate lastPeriodStartDate, int cycleDuration){
         return lastPeriodStartDate.plusDays(cycleDuration);
     }
+    
+
 
 
 }
