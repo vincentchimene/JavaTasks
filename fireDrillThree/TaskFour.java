@@ -11,7 +11,7 @@ public class TaskFour{
         System.out.println(evenString);
         int[] arrayEven = new int[evenString.length()];
         for (int count = 0; count < evenString.length(); count++){
-            arrayEven[count] = Integer.parseInt(evenString.charAt(count));    
+            arrayEven[count] = evenString.charAt(count)-'0';    
         }
         return arrayEven;
 
