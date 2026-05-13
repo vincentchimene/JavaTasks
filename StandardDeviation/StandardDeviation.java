@@ -25,7 +25,7 @@ public class StandardDeviation{
     }
 
     public static double getStandardDeviation(double[] array){
-        double standardDeviation = Math.sqrt(getVariance(array));
+        double standardDeviation = Math.round(Math.sqrt(getVariance(array)) * 100.0) / 100.0;
         return  standardDeviation;
     }
 
