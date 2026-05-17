@@ -20,4 +20,4 @@ public class SquareOfDigitsReversed{
             count2 *= 10;
         }
     }
-}
+}cf
