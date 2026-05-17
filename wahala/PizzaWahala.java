@@ -1,8 +1,9 @@
 
 public class PizzaWahala{
+
     public static String pizzaOrderDetails(double numberOfGuest, String pizzaType){
      
-        int pricePerBox;
+         int pricePerBox;
         double numberOfSlice;
         String message; 
         
@@ -39,7 +40,7 @@ public class PizzaWahala{
 
 
     public static void main(String[] args) {
-        System.out.println(pizzaOrderDetails(48, "odogwu"));
+        System.out.println(pizzaOrderDetails(40, "sapa size"));
         
  }
 }

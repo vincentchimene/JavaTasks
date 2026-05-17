@@ -1,6 +1,6 @@
 public class Kata{
     public static void main(String[] args){
-        System.out.printf("%d", max(23, 26));
+        System.out.printf("%b%n", isEven(26));
     }
         
 
@@ -69,6 +69,12 @@ public class Kata{
             factorial *= count;
         }
         return factorial;    
+    }
+
+    public static boolean isPalindrome(int number){      
+    for (int count =1; count <= 2; count++){
+       int last digit = number % 2 
+    } 
     }
 }
 

@@ -20,20 +20,21 @@ public class NokiaMenu{
                     switch (subMenuChoice){
                     
                     case 1: // L2   SEARCH
-                        while(true){
+                        //while(true){
                             System.out.println("%n      SEARCH        %n");
                             System.out.println("0. Back");
 
-                            int subSubMenuChoice = input.nextInt();
-                            switch (subSubMenuChoice){
-                                case 0:
-                                    break;
-                                default:
-                                    System.out.printf("Invalid choice!%n"); 
+                            int subSubMenuChoice1 = input.nextInt();
+                            //switch (subSubMenuChoice){
+                              //  case 0:
+                                //    break;
+                                //default:
+                                 //   System.out.printf("Invalid choice!%n"); 
                 
-                            }
-                            if (subSubMenuChoice == 0) break;
-                        }
+                            //}
+                            if (subSubMenuChoice1 == 0) break;
+                            else {System.out.printf("Invalid choice!%n");}
+                        //for while loop}
                         break;
 
                     case 2: // L2   SERVICE NOS

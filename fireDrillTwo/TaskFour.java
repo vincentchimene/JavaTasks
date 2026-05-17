@@ -16,5 +16,5 @@ public class TaskFour{
         }
         System.out.printf("%nSum: %d%n", sum);
         
-}
+    }
 }

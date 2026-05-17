@@ -5,19 +5,19 @@ public class BackToSenderTest{
 
     @Test
     public void testCollectionRateLessThan50(){
-        BackToSender calc = new BackToSender();
-        int collectionRate = 40;
-        int result = calc.calculateRidersPay(collectionRate);
-        int expected = 40 * 160 + 5000;
+        Range calc = new BackToSender();
+        int[] array = {2,5,7,9,20};
+        int result = calc.getMin(array);
+        int expected = 2;
         assertEquals(expected, result);
     }
 
     @Test
-    public void testCollectionRateEqualTo50(){
+    public void testCollectionRateLessThan50(){
         BackToSender calc = new BackToSender();
-        int collectionRate = 50;
-        int result = calc.calculateRidersPay(collectionRate);
-        int expected = 50 * 200 + 5000;
+        int[] array = {2,5,7,9,20};
+        int result = calc.getMin(array);
+        int expected = 2;
         assertEquals(expected, result);
     }
     
